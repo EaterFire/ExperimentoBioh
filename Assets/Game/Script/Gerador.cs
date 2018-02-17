@@ -19,11 +19,11 @@ public class Gerador : MonoBehaviour {
 
 	// Use this for initialization
 	IEnumerator Start () {
-		spawnDelay = 3.0f;
+		spawnDelay = 2.0f;
 		diffT = 10;
 
-		InvokeRepeating("Spawn2", 0.5f, 5);
-		InvokeRepeating("Spawn3", 1.0f, 5);
+		InvokeRepeating("Spawn2", 2.0f, 5);
+		//InvokeRepeating("Spawn3", 1.0f, 5);
 
 
 		while(true)

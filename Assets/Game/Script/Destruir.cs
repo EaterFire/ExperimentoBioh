@@ -23,10 +23,12 @@ public class Destruir : MonoBehaviour {
 
 	void OnMouseOver()
 	{
-		if(Input.GetMouseButtonDown(0)){
+		Destroy(gameObject);
+		Player.score += 10;
+		/*if(Input.GetMouseButtonDown(0)){
 			Destroy(gameObject);
 			Player.score += 10;
-		}
+		}*/
 	}
 }
 	

@@ -19,11 +19,14 @@ public class Relogio : MonoBehaviour {
 
 	void OnMouseOver()
 	{
-		if(Input.GetMouseButtonDown(0)){
+		Destroy(gameObject);
+		Time.timeScale = 0.5f;
+		trigger = true;
+		/*if(Input.GetMouseButtonDown(0)){
 			Destroy(gameObject);
 			Time.timeScale = 0.5f;
 			trigger = true;
-}
+		}*/
 	}
 
 
