@@ -85,18 +85,18 @@ public class Gerador : MonoBehaviour {
 	}
 
 	void Spawn(){
-		Vector3 position = new Vector3 (Random.Range (-4.71f, 3.0f), 4, 0);
+		Vector3 position = new Vector3 (Random.Range (-2.62f, 2.56f), 5.42f, 0);
 		Instantiate (BolinhaPreta, position, Quaternion.identity);
 
 	}
 	void Spawn2(){
-		Vector3 position = new Vector3 (Random.Range (-4.71f, 3.0f), 4, 0);
+		Vector3 position = new Vector3 (Random.Range (-2.62f, 2.56f), 5.42f, 0);
 		Instantiate (Cronometro, position, Quaternion.identity);
 
 
 	}
 	void Spawn3(){
-		Vector3 position = new Vector3 (Random.Range (-4.71f, 3.0f), 4, 0);
+		Vector3 position = new Vector3 (Random.Range (-2.62f, 2.56f), 5.42f, 0);
 		Instantiate (Plati, position, Quaternion.identity);
 
 
