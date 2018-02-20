@@ -25,10 +25,10 @@ public class Destruir : MonoBehaviour {
 	{
 		Destroy(gameObject);
 		Player.score += 10;
-		/*if(Input.GetMouseButtonDown(0)){
+		/*if(Input.GetTouch(0)){
 			Destroy(gameObject);
-			Player.score += 10;
-		}*/
+			Player.score += 10;*/
+		}
 	}
-}
+
 	
