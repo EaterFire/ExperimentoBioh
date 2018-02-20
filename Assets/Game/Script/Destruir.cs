@@ -9,6 +9,10 @@ public class Destruir : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Time.deltaTime > 0) {
+			transform.Rotate (Vector3.forward);
+			transform.Rotate (Vector3.forward);
+		}
 		
 		
 	}
