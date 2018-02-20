@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50128995434743504}
   - component: {fileID: 114087835244590142}
   - component: {fileID: 60956340354388878}
+  - component: {fileID: 114967053034211298}
   m_Layer: 0
   m_Name: BolinhaPreta
   m_TagString: Untagged
@@ -242,6 +243,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4f1e8898f06c794a86c7b97dab818ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114967053034211298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474957649294734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a717b9f390d433c498b01e85ed8cc4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212129431144596736
