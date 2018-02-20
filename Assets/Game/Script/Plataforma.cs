@@ -23,7 +23,7 @@ public class Plataforma : MonoBehaviour {
 	{
 		if(Input.GetMouseButtonDown(0)){
 			Destroy(gameObject);
-		
+			Lerp.ativo = true;
 		}
 }
 }

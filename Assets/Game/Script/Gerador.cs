@@ -23,7 +23,7 @@ public class Gerador : MonoBehaviour {
 		diffT = 10;
 
 		InvokeRepeating("Spawn2", 2.0f, 5);
-		//InvokeRepeating("Spawn3", 1.0f, 5);
+		InvokeRepeating("Spawn3", 1.0f, 5);
 
 
 		while(true)
